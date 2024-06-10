@@ -1,5 +1,6 @@
 Description
-Campus News Portal is a system that is built for educational purpose only.
+
+Campus News Portal is a system that is built for educational purposes only.
 
 How To Use
 1. Download Php Mailer which is needed for otp.
