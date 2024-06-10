@@ -1,0 +1,147 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    }
+            
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A1851;
+    }
+                     
+li {
+    display: inline;
+    }
+            
+li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px
+    }
+            
+li a{
+    color: black;
+    text-decoration: none;
+    }
+            
+body, ul{
+    margin: 0;
+    padding: 0;
+    }
+            
+li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    }
+            
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+            
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #fcb315;
+    }
+            
+li.dropdown {
+    display: inline-block;
+    }
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+            
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 5px;
+    }
+            
+.dropdown-content a:hover {background-color: #f1f1f1;}
+            
+.dropdown:hover .dropdown-content{
+    display: block;
+    }
+
+.logout-btn {
+    float: right;
+    }
+            
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    }
+            
+.main-content{
+    flex-basis: 50%
+    }
+
+.write-post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 50px;
+    }      
+
+footer{
+    
+    background-color: #1A1851;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    }
+
+textarea{
+    width: 100%;
+    border: none;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 60px;
+}
+
+#post_button{
+    float: right;
+    background-color: #405d9b;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 50px;
+}
+
+#post_bar{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+#post{
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+}
